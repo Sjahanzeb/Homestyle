@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 export default function Categories() {
   const categories = [

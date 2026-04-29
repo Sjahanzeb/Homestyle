@@ -198,11 +198,11 @@ export default function Footer() {
         required
       />
       <textarea
-        placeholder="Your Feedback"
-        rows="3"
-        className="px-4 py-2 w-full border border-gray-300 rounded-md text-sm text-gray-700 placeholder-[#9A9CAA] focus:outline-none"
-        required
-      ></textarea>
+  placeholder="Your Feedback"
+  rows={3}
+  className="px-4 py-2 w-full border border-gray-300 rounded-md text-sm text-gray-700 placeholder-[#9A9CAA] focus:outline-none"
+  required
+></textarea>
       <button
         type="submit"
         className="bg-[#029FAE] text-white px-6 py-2 rounded-md hover:bg-teal-700 transition text-sm"
